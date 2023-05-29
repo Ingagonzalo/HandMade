@@ -1,0 +1,32 @@
+.hero {
+  height: 60vh;
+  width: 100vw;
+  background-color: rgba(117, 91, 94, 0.43);
+  position: relative;
+  background-image: url(../../assets/images/Hero.webp);
+  background-size: cover; /* Ajusta el tamaño para cubrir completamente el elemento */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  padding: 0 10%;
+}
+
+.heroMain {
+  position: absolute;
+  top: 30%;
+  width: 80%;
+}
+.heroContent {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroContentText {
+  width: 40%;
+}
+
+.heroContentImage img {
+  width: 350px;
+}

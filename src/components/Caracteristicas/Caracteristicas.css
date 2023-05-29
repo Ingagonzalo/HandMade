@@ -1,0 +1,18 @@
+.caracteristics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+  margin-top: 90px;
+}
+.caracteristics div {
+  display: flex;
+}
+.caracteristics div p {
+  margin-left: 30px;
+  width: 320px;
+  color: #513d40;
+}
+.caracteristics div img {
+  width: 56px;
+}

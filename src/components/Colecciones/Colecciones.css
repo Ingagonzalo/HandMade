@@ -1,0 +1,20 @@
+.collection {
+  margin: 0 10%;
+  margin-top: 100px;
+}
+
+.collectionList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collectionItem {
+  width: 300px;
+  height: 262px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  border-radius: 20px;
+}
