@@ -1,0 +1,26 @@
+.aboutHome {
+  display: flex;
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-color: var(--color-secondary);
+  height: 600px;
+}
+
+.aboutHome img {
+  width: 40%;
+
+  object-fit: cover;
+}
+
+.aboutHomeText {
+  width: 60%;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutHomeText p {
+  width: 60%;
+}

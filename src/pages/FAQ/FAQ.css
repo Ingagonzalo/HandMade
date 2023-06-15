@@ -1,0 +1,19 @@
+.faqArticle {
+  padding: 0 10%;
+}
+
+.faqArticleList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.faqArticleList li {
+  color: black;
+  text-transform: none;
+}
+
+.faqArticleList li::before {
+  content: '• ';
+}

@@ -1,0 +1,22 @@
+.contactHome {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.contactHomeList {
+  width: 100%;
+  padding: 0 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactHomeItem h4 {
+  color: black;
+}
+
+.contactHomeItem {
+  text-align: center;
+}

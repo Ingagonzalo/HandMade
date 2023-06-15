@@ -1,0 +1,15 @@
+.collectionPageList{
+    padding: 0 10%;
+    margin-bottom: 100px;
+   
+}
+
+.collectionPageList p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.collectionPageListImages{
+    display: flex;
+    justify-content: space-around;
+}

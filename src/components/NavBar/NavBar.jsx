@@ -7,24 +7,24 @@ const NavBar = () => {
       <ul>
         <div className='left-items'>
           <li>
-            <a href=''>Inicio</a>
+            <a href='/'>Inicio</a>
           </li>
           <li>
-            <a href=''>Productos</a>
+            <a href='/products'>Productos</a>
           </li>
           <li>
-            <a href=''>Colecciones </a>
+            <a href='/collection'>Colecciones </a>
           </li>
           <li>
-            <a href=''>FAQ</a>
+            <a href='/faq'>FAQ</a>
           </li>
         </div>
         <div className='right-items'>
           <li>
-            <a href=''>Nosotros</a>
+            <a href='/about-us'>Nosotros</a>
           </li>
           <li>
-            <a href=''>Contacto</a>
+            <a href='/contact'>Contacto</a>
           </li>
         </div>
       </ul>

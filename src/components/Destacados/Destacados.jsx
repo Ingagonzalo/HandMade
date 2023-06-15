@@ -4,7 +4,7 @@ import imagenArticulo from '../../assets/images/Article.webp';
 
 const Destacados = () => {
   return (
-    <div>
+    <div className='featuredProducts'>
       <h2>Productos Destacados</h2>
       <div className='productsList'>
         <article>

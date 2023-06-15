@@ -3,6 +3,7 @@
 :root {
   --color-primary: #7c434a;
   --color-text: #513d40;
+  --color-secondary: #dacacc;
 }
 
 * {
@@ -30,6 +31,14 @@ h3 {
   font-size: 34px;
   font-weight: 500;
   line-height: 36px;
+  letter-spacing: 0em;
+}
+
+h4 {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 25px;
   letter-spacing: 0em;
 }
 
