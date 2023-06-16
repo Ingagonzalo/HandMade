@@ -4,10 +4,14 @@
   --color-primary: #7c434a;
   --color-text: #513d40;
   --color-secondary: #dacacc;
+  --color-footer: #bea2a6;
+  --color-background-about: #dacacc;
+  --color-background-contact: #EFEEEB;
+  --color-contact-input: #d9d9d9;
 }
 
 * {
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
   text-decoration: none;
   color: white;
   box-sizing: border-box;
