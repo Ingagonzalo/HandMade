@@ -1,0 +1,56 @@
+@import url(./normalize.css);
+
+:root {
+  --color-primary: #7c434a;
+  --color-text: #513d40;
+  --color-secondary: #dacacc;
+  --color-footer: #bea2a6;
+  --color-background-about: #dacacc;
+  --color-background-contact: #EFEEEB;
+  --color-contact-input: #d9d9d9;
+}
+
+* {
+  font-family: "Helvetica";
+  text-decoration: none;
+  color: white;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+h2 {
+  text-align: center;
+  color: var(--color-text);
+  font-size: 47px;
+  font-weight: 500;
+  line-height: 72.5px;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+
+h4 {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color-text);
+}
