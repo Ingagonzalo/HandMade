@@ -16,3 +16,22 @@
 .caracteristics div img {
   width: 56px;
 }
+
+
+@media (max-width: 768px) {
+  .caracteristics{
+    flex-direction: column;
+  
+  }
+  .caracteristics div {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+   
+    
+  }
+  .caracteristics div p{
+text-align: center;
+  }
+}

@@ -20,3 +20,14 @@
 .contactHomeItem {
   text-align: center;
 }
+
+@media (max-width: 768px){
+  .contactHomeList{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contactHomeItem p{
+    text-align: center;
+  }
+}

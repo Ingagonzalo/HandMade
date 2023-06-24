@@ -11,3 +11,9 @@
 .productsList article img {
   width: 300px;
 }
+
+@media (max-width: 768px) {
+  .productsList{
+    flex-direction: column;
+  }
+}

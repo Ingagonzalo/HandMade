@@ -11,6 +11,12 @@ import familia3 from '../../assets/images/Colecciones/Familia/Familia3.webp'
 import paraVos1 from '../../assets/images/Colecciones/ParaVos/ParaVos1.webp'
 import paraVos2 from '../../assets/images/Colecciones/ParaVos/ParaVos2.webp'
 import paraVos3 from '../../assets/images/Colecciones/ParaVos/ParaVos3.webp'
+import producto1 from '../../assets/images/Productos/Producto1.webp'
+import producto2 from '../../assets/images/Productos/Producto2.webp'
+import producto3 from '../../assets/images/Productos/Producto3.webp'
+
+
+
 export default [
 
 {"img": pareja1,
@@ -39,5 +45,11 @@ export default [
 "title": "ColeccionParaVos"},
 {"img": paraVos3,
 'title': "ColeccionParaVos"},
+{"img": producto1,
+'title': "producto1"},
+{"img": producto2,
+'title': "producto2"},
+{"img": producto3,
+'title': "producto3"},
 
 ]

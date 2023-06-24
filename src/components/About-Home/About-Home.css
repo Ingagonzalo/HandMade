@@ -24,3 +24,24 @@
 .aboutHomeText p {
   width: 60%;
 }
+
+
+@media (max-width: 768px) {
+  .aboutHome{
+    flex-direction: column;
+    height: auto;
+  }
+  .aboutHome img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .aboutHomeText {
+    width: 100%;
+    padding: 10%;
+    
+  }
+  
+.aboutHomeText p {
+  width: 100%;
+}
+}

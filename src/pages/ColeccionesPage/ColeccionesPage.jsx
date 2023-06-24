@@ -11,7 +11,7 @@ const ColeccionesPage = () => (
     <Colecciones></Colecciones>
     <Destacados></Destacados>
     <div className="collectionPageList">
-      <h2>Colección Parejas</h2>
+      <h2 >Colección Parejas</h2>
       <p>
         En Hand Made podés encontrar el regalo ideal para compartir con tu
         pareja. Seguinos en Instagram para estar al tanto de nuestras novedades

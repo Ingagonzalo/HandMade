@@ -1,3 +1,7 @@
 .answerFAQList h4{
     color: var(--color-text);
 }
+
+.answerFAQContainer{
+    margin-bottom: 200px;
+}
