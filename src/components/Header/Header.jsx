@@ -4,11 +4,11 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div>
+    <div className= 'navigate'>
       <div className='headerNavBar'>
         <p>¡Hacemos envíos a todo Uruguay!</p>
       </div>
-      <NavBar />
+      <NavBar  />
     </div>
   );
 };
