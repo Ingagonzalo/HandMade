@@ -20,18 +20,42 @@ ul {
 
 li {
   margin-left: 10px;
-  font-size: 15px;
+  margin-left: 10px;
+  font-size: 20px;
   text-transform: uppercase;
+  margin: 0.5rem 0rem;
 }
 
 .left-items {
   display: flex;
+  flex-direction: column;
 }
 
 .right-items {
   display: flex;
+  flex-direction: column;
 }
 
+.left-items li {
+  margin: 5px 20px;
+}
 .right-items li {
-  margin-right: 10px;
+  margin: 5px 20px;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .contain {
+    flex-direction: row;
+  }
+  .right-items {
+    flex-direction: row;
+  }
+  .left-items {
+    flex-direction: row;
+  }
 }
